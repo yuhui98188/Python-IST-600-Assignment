@@ -37,7 +37,7 @@ import plotly.graph_objs as go
 import plotly
 
 #using plotly API for sign in and saving file online
-plotly.tools.set_credentials_file(username='1992E-zy819', api_key='O8bv21Dc8lZxkRT4k8eh')
+plotly.tools.set_credentials_file(username='replace with your own user name', api_key='replace with your own key')
 
 #create a new data frame for analyzing relationship between vehicle displacement and fuel efficiency
 tst_car_dspl = tst_car1[['Test Veh Displacement (L)','RND_ADJ_FE']]
